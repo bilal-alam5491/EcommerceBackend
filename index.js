@@ -15,11 +15,6 @@ const port = process.env.PORT;
 // importing routes
 import userRoutes from "./routes/user.js";
 
-
-
-
-
-
 // using routes
 app.use("/api", userRoutes);
 
