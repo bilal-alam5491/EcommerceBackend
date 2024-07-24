@@ -5,7 +5,7 @@ import cors from "cors";
 
 dotenv.config();
 const app = express();
-
+// abdullah
 // using middlewares
 app.use(express.json());
 app.use(cors());
